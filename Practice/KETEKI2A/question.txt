@@ -1,0 +1,329 @@
+         (function(_,e,rr,s){_errs=[s];var c=_.onerror;_.onerror=function(){var a=arguments;_errs.push(a);
+              c&&c.apply(this,a)};var b=function(){var c=e.createElement(rr),b=e.getElementsByTagName(rr)[0];
+                c.src="//beacon.errorception.com/"+s+".js";c.async=!0;b.parentNode.insertBefore(c,b)};
+                _.addEventListener?_.addEventListener("load",b,!1):_.attachEvent("onload",b)})
+            (window,document,"script","4e7c8fce06a9ab05530008e5");
+          
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TV5X2M');
+
+
+
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '277309139459596');
+        fbq('track', 'PageView');
+        
+
+
+
+ var _sf_startpt=(new Date()).getTime()
+Ketu and Petu | CodeChef
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","username":null});
+//--><!]]>
+
+
+
+
+
+
+
+
+
+
+
+      #custom-login {
+        height: 45px;
+      }
+    
+
+
+
+
+
+      function logInMsg(e)
+      {
+        invokeGenericModal({id: 'login-required', message:
+          '<div class="ccl-font-h2 ccl-border-bottom ccl-padding-s ccl-margin-sm ccl-align-c">Oops!!!</div>' +
+          '<div class="ccl-font-p ccl-align-c ccl-margin-m">It seems you are not logged in. Log in to make a submission. </div>', closeCross: true});
+        e.preventDefault();
+      }
+
+      function contestEndRedirect(e, redirectTo)
+      {
+        invokeGenericModal({id: 'contest-end-msg', message:
+          '<div class="ccl-font-h2 ccl-border-bottom ccl-padding-s ccl-margin-sm ccl-align-c">Redirecting</div>' +
+          '<div class="ccl-font-p ccl-align-c ccl-margin-m">' +
+          'The contest has ended. To make submissions to its problems, let us take you to the practice section. ' +
+          'Take me <a href="'+redirectTo+'">there</a>' +
+          '</div>',
+          isLoginRequired:true, closeCross: true});
+        e.preventDefault();
+        setTimeout(function() {
+          window.location.href = redirectTo;
+        }, 7000);
+      }
+
+      function practiceNotMoved(e)
+      {
+        invokeGenericModal({id: 'problem-not-moved-msg', message:
+          '<div class="ccl-font-h2 ccl-border-bottom ccl-padding-s ccl-margin-sm ccl-align-c">Oops!!!</div>' +
+          '<div class="ccl-font-p ccl-align-c ccl-margin-m">' +
+          'That\'s an expired contest you are trying to submit to. ' +
+          'Should you choose to continue so, <a href="mailto:help@codechef.com">write</a> to admin to move its problems ' +
+          'to the practice section, once they are there you will be able make the submissions.' +
+          '</div>',
+          isLoginRequired:true, closeCross: true});
+        e.preventDefault();
+      }
+    
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+Username: *
+
+
+
+Password: *
+
+
+Forgot Password
+
+
+
+
+    String.prototype.capitalize = function() {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    };
+
+    disconnectOauth = function (event, account){
+        if(event!=undefined)
+        {
+            event.preventDefault();
+        }
+        var r = confirm("Are you sure you want to disconnect "+account.capitalize()+" account?");
+        if (r == true) {
+            clearUserCache();
+            $.ajax({url:'/OAuth/'+account,
+                type:'DELETE',
+                success:function(){
+                    window.location.reload();
+                },
+                error:function(){
+                    invokeGenericModal({message:"Couldn't complete your request. Please try again.",id:account+'-error-message'});
+                }
+            });
+        }
+    };
+
+
+New User 
+
+
+Site Navigation PRACTICECode, Compile & Run
+Beginner
+Easy
+Medium
+Hard
+Challenge
+Peer
+
+
+COMPETEAll Contests
+August Challenge 2019
+August Cook-Off 2019
+July Lunchtime 2019
+
+
+DISCUSSForums
+Blog
+Wiki
+Facebook
+Twitter
+
+
+COMMUNITYCertification
+CodeChef for Corporates
+Goodies Website
+SnackDown 2019
+CodeChef for Schools
+Host your Contest
+Go for Gold
+Campus Chapter
+
+
+HELPRating Mechanism
+Rating Divisions
+Frequently Asked Questions
+CodeChef Rating (All)
+CodeChef Rating (Junior)
+FAQ for problem setters
+Problem Setting
+Tutorials
+Event Calendar
+Top Contributors on Discuss
+
+
+ABOUTAbout CodeChef
+CEO's Corner
+About Directi
+Careers
+Press Room
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home » Practice(Peer) » Ketu and Petu
+
+
+
+
+
+
+
+
+
+Ketu and Petu                                          
+
+
+                                              input.todo-button {
+                                                vertical-align:text-bottom;
+                                                margin-left: 18px;
+                                              }
+                                            
+
+
+
+Problem code: KETEKI2A
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Submit All Submissions
+
+
+
+
+
+
+
+
+
+All submissions for this problem are available.Chef saw Ketu and Petu playing the following game.
+- There are $n$ cards placed in a line on a table with each card having a value on it. Card $i$ has value $C_i$, where $1 \leq i \leq n$. Initially, $C_1$ is at the front and $C_n$ is at the back.
+- Both of them take their turn alternately with Petu starting the game.
+- Petu draws card from the front of the remaining cards.
+- Ketu draws card from the back of the remaining cards.
+- Both of them gain value written on the card they drew.
+- When there is no card remaining, the game ends.
+
+Chef was wondering what will be difference in points earned by Ketu and Petu after the game ends?
+
+###Input:
+- The first line of input contains a single number $n$.
+- The second line of input contains $n$ space seperated integers $C_1, C_2, \dots, C_n$.
+
+###Output:
+Print a single integer, Ketu's points - Petu's points after the end of the game.
+
+###Constraints: 
+- $1 \leq n \leq 10^5$
+- $1 \leq C_i \leq 10^3$ for each valid $i$
+
+###Sample Input:
+```
+3
+1 4 10
+```
+
+###Sample Output:
+```
+5
+```
+	
+###Explanation:
+Let $K$ be points of Ketu and $P$ be points of Petu.
+- Initially, $K = 0$ and $P = 0$.
+- Petu draws card with value $1$ and gains $1$ points. So, $P = 0 + 1 = 1$.
+- Ketu draws card with value $10$ and gains $10$ points. So, $K = 0 + 10 = 10$.
+- Petu draws card with value $4$ and gains $4$ points. So, $P = 1 + 4 = 5$.
+
+Hence, the value of $K - P = 10 - 5 = 5$.    
+
+
+
+
